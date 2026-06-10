@@ -99,28 +99,20 @@
         </div>
     </header>
     <!--First Div-->
-    <div class="w-full md:h-[90vh] h-[80vh] sm:h-[80vh] bg-[url('img/maindiv.jpeg')] bg-cover bg-center">
-        <div class="w-[90%] lg:w-[60%] md:w-[60%] relative p-10 text-white lg:top-20 lg:left-10">
-            <p class="text-[25px] sm:text-[25px] font-extrabold lg:text-[40px]">Find Your Perfect University, Language
-                School
-                or Summer
-                Schools Program</p>
-            <p class="text-[20px]">Uni4edu simplifies the journey to studying abroad by bringing top institutions
-                worldwide into a single
-                digital platform. Manage your entire process—from school selection to application—directly within the
-                system and achieve your academic and career goals online.</p>
-            <div class="flex sm:flex-row flex-col gap-2 mt-5">
-                <button class="bg-cyan-400 px-7 py-3 rounded-xl hover:opacity-[0.7] duration-500">Explore
-                    Programs</button>
-                <button
-                    class="text-cyan-400 border b-cyan-300 bg-white px-7 py-3 rounded-xl hover:opacity-[0.7] duration-500">Get
-                    Free Advice</button>
+    <section class="w-full min-h-[80vh] md:min-h-[90vh] bg-[url('img/maindiv.jpeg')] bg-cover bg-center bg-no-repeat">
+        <div class="relative mx-auto max-w-6xl px-6 py-16 sm:py-20 lg:py-24">
+            <div class="max-w-3xl text-white">
+                <p class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">Find Your Perfect University, Language School or Summer Schools Program</p>
+                <p class="mt-6 text-base sm:text-lg lg:text-xl leading-8 text-white/90">Uni4edu simplifies the journey to studying abroad by bringing top institutions worldwide into a single digital platform. Manage your entire process—from school selection to application—directly within the system and achieve your academic and career goals online.</p>
+                <div class="mt-8 flex flex-col sm:flex-row sm:items-center gap-3">
+                    <button class="w-full sm:w-auto bg-cyan-400 px-7 py-3 rounded-xl text-sm font-semibold hover:opacity-80 transition">Explore Programs</button>
+                    <button class="w-full sm:w-auto text-cyan-400 border border-cyan-300 bg-white px-7 py-3 rounded-xl text-sm font-semibold hover:opacity-80 transition">Get Free Advice</button>
+                </div>
             </div>
-
         </div>
-    </div>
-    <div class="rounded-full fixed bottom-15 right-7 bg-white z-20 h-20 w-20 shadow-2xl">
-        <img src="img/bird.png">
+    </section>
+    <div class="fixed bottom-6 right-6 bg-white z-20 h-20 w-20 shadow-2xl rounded-full flex items-center justify-center">
+        <img src="img/bird.png" class="h-14 w-auto" alt="Bird">
     </div>
     <!--PROGRAMS DIV-->
     <div class="flex lg:hidden justify-center md:mt-5 sm:mt-5">
@@ -565,43 +557,46 @@
 
       <!-- end of latest news -->
        <!-- footer -->
-        <footer class="bg-red-300 flex p-10 gap-5">
-        <div class="p-5 flex flex-col items-center">
-            <img src="images/logo.svg">
-            <p>Copyright &copy; 2024 Uni4Edu</p>
-        </div>
-        <div>
-            <img src="images/badge.png" class="h-40 w-30">
-        </div>
-        <div>
-            <img src="images/footer_logo2.png" class="h-40 w-40">
-        </div>
-        <div class="flex flex-col gap-2 text-gray-500 text-[13px]">
-            <p>About</p>
-            <p>Contact us</p>
-            <p>Privacy Policy</p>
-            <p>Terms and Conditions</p>
-            <p>Partnership</p>
-        </div>
-        <div class="flex flex-col gap-2 text-gray-500 text-[13px]">
-            <p>Universities</p>
-            <p>Masters</p>
-            <p>Language Schools</p>
-            <p>Foundation</p>
-            <p>Summer/Winter Schools</p>
-            <p>High School</p>
-        </div>
-        <div class="w-70 flex flex-col gap-3">
-            <p>Follow us</p>
-            <div class="flex bg-blue-300 ">
-                <img src="images/fb.svg" class="w-7 h-7">
-                <img src="images/x.svg" class="w-7 h-7">
-                <img src="images/insta.svg" class="w-7 h-7">
-                <img src="images/linkedin.svg" class="w-7 h-7">
+        <footer class="bg-slate-100">
+          <div class="max-w-7xl mx-auto px-6 py-10">
+            <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="space-y-4">
+                <img src="images/logo.svg" class="h-10 w-auto" alt="Uni4Edu logo">
+                <p class="text-sm text-gray-600">Copyright © 2024 Uni4Edu</p>
+              </div>
+
+              <div class="space-y-3 text-sm text-gray-700">
+                <p class="font-semibold text-gray-900">Company</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">About</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">Contact us</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">Privacy Policy</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">Terms and Conditions</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">Partnership</p>
+              </div>
+
+              <div class="space-y-3 text-sm text-gray-700">
+                <p class="font-semibold text-gray-900">Programs</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">Universities</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">Masters</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">Language Schools</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">Foundation</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">Summer/Winter Schools</p>
+                <p class="hover:text-cyan-500 transition cursor-pointer">High School</p>
+              </div>
+
+              <div class="space-y-4 text-sm text-gray-700">
+                <p class="font-semibold text-gray-900">Follow us</p>
+                <div class="flex flex-wrap items-center gap-3">
+                  <img src="images/fb.svg" class="w-8 h-8" alt="Facebook">
+                  <img src="images/x.svg" class="w-8 h-8" alt="X">
+                  <img src="images/insta.svg" class="w-8 h-8" alt="Instagram">
+                  <img src="images/linkedin.svg" class="w-8 h-8" alt="LinkedIn">
+                </div>
+                <img src="images/secured.png" class="h-10 w-auto" alt="Secure badge">
+              </div>
             </div>
-            <img src="images/secure.png" class="w-30 h-10">
-        </div>
-    </footer>
+          </div>
+        </footer>
 
     <script>
         function menuClick() {
