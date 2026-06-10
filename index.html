@@ -193,78 +193,105 @@
       </div>
     </section>
 
-    <!-- SEARCH PART -->
-    <div class="flex justify-center md:mt-5 sm:mt-5">
-      <div
-        class="flex bg-blue-200 relative mt-[-7%] w-[92%] p-4 rounded-xl opacity-[0.9]"
-      >
-        <div class="w-[100%] h-[100%] rounded-b-[20px]">
-          <div class="flex font-semibold text-[18px]">
-            <button class="blue px-10 py-3 bg-blue-500 rounded-t-lg text-white">
-              University Programs
-            </button>
-            <button class="red px-10 py-3 bg-gray-100 rounded-t-lg">
-              Language Schools
-            </button>
-            <button class="purple px-10 py-3 bg-gray-100 rounded-t-lg">
-              Summer Schools
-            </button>
-          </div>
-          <div
-            class="flex w-full p-3 h-[70%] bg-white items-center rounded-b-[20px]"
+    <section class="max-w-5xl mx-auto px-4 -mt-10 relative z-20">
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+        <div class="flex border-b border-gray-200">
+          <button
+            class="px-8 py-4 text-sm font-semibold text-white bg-cyan-400 border-b-2 border-cyan-400"
           >
-            <div class="px-6 py-3 bg-white w-[25%]">
-              <p>Location</p>
-              <select>
-                <option>Select Location</option>
-                <option>Australia</option>
-                <option>Canada</option>
-                <option>Cyprus</option>
-                <option>France</option>
-                <option>Germany</option>
-              </select>
-            </div>
-            <div class="px-6 py-3 bg-white w-[25%]">
-              <p>Institution</p>
-              <select>
-                <option>Select Institution</option>
-                <option>Abertay University</option>
-                <option>Canada</option>
-                <option>Cyprus</option>
-                <option>France</option>
-                <option>Germany</option>
-              </select>
-            </div>
-            <div class="px-6 py-3 bg-white w-[25%]">
-              <p>Discipline</p>
-              <select>
-                <option>Select Discipline</option>
-                <option>Agriculutral Sciences</option>
-                <option>Architecture</option>
-                <option>Art</option>
-                <option>Aviation Management</option>
-                <option>Germany</option>
-              </select>
-            </div>
-            <div class="px-6 py-3 bg-white w-[25%]">
-              <p>Program Level</p>
-              <select>
-                <option>Select Program Level</option>
-                <option>Bachelor's Degree</option>
-                <option>Certificate & Diploma</option>
-                <option>Doctoral & PhD</option>
-                <option>Master's & Postgraduate</option>
-              </select>
-            </div>
-            <div
-              class="bg-blue-600 h-10 w-10 rounded-lg flex items-center justify-center"
+            University Programs
+          </button>
+          <button
+            class="px-8 py-4 text-sm font-medium text-gray-600 hover:text-cyan-500 transition"
+          >
+            Language Schools
+          </button>
+          <button
+            class="px-8 py-4 text-sm font-medium text-gray-600 hover:text-cyan-500 transition"
+          >
+            Summer Schools
+          </button>
+        </div>
+
+        <div
+          class="flex flex-wrap items-center divide-x divide-gray-200 px-4 py-4"
+        >
+          <div class="flex-1 min-w-40 px-4">
+            <label class="block text-xs text-gray-500 mb-1">Location</label>
+            <select
+              class="w-full text-sm text-gray-400 bg-transparent outline-none appearance-none cursor-pointer"
             >
-              <img src="img/search2.svg" class="w-7 h-7" />
-            </div>
+              <option value="" disabled selected>Select Location</option>
+              <option>United Kingdom</option>
+              <option>United States</option>
+              <option>Canada</option>
+              <option>Australia</option>
+            </select>
+          </div>
+
+          <div class="flex-1 min-w-40 px-4">
+            <label class="block text-xs text-gray-500 mb-1">Institution</label>
+            <select
+              class="w-full text-sm text-gray-400 bg-transparent outline-none appearance-none cursor-pointer"
+            >
+              <option value="" disabled selected>Select Institution</option>
+              <option>University of Oxford</option>
+              <option>MIT</option>
+              <option>Harvard University</option>
+            </select>
+          </div>
+
+          <div class="flex-1 min-w-40 px-4">
+            <label class="block text-xs text-gray-500 mb-1">Discipline</label>
+            <select
+              class="w-full text-sm text-gray-400 bg-transparent outline-none appearance-none cursor-pointer"
+            >
+              <option value="" disabled selected>Select Discipline</option>
+              <option>Engineering</option>
+              <option>Business</option>
+              <option>Medicine</option>
+              <option>Arts</option>
+            </select>
+          </div>
+
+          <div class="flex-1 min-w-40 px-4">
+            <label class="block text-xs text-gray-500 mb-1"
+              >Program Level</label
+            >
+            <select
+              class="w-full text-sm text-gray-400 bg-transparent outline-none appearance-none cursor-pointer"
+            >
+              <option value="" disabled selected>Select Program Level</option>
+              <option>Undergraduate</option>
+              <option>Masters</option>
+              <option>PhD</option>
+              <option>Foundation</option>
+            </select>
+          </div>
+
+          <div class="pl-4">
+            <button
+              class="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-lg transition"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z"
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <section class="max-w-7xl mx-auto px-6 py-20">
       <h2 class="text-3xl font-extrabold text-gray-900 mb-3">
